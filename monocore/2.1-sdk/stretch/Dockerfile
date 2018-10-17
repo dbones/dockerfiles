@@ -5,4 +5,4 @@ RUN apt install apt-transport-https dirmngr && \
     echo "deb https://download.mono-project.com/repo/debian stable-stretch main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list && \
     apt apt-get update &&\
     apt apt-get -y install mono-complete &&\
-    apt apt-getb-y install nuget
+    apt apt-get -y install nuget
